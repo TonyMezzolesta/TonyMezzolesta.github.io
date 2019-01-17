@@ -13,6 +13,8 @@ import carouselStyle from "assets/jss/material-kit-react/views/componentsSection
 import image1 from "assets/img/bg.jpg";
 import image2 from "assets/img/bg2.jpg";
 import image3 from "assets/img/bg3.jpg";
+import image4 from "assets/img/professional/canstockphoto20440876.jpg";
+import image5 from "assets/img/professional/teenage_emotion.jpeg";
 
 class SectionCarousel extends React.Component {
   render() {
@@ -68,6 +70,30 @@ class SectionCarousel extends React.Component {
                       <h4>
                         <LocationOn className="slick-icons" />Yellowstone
                         National Park, United States
+                      </h4>
+                    </div>
+                  </div>
+                  <div>
+                    <img
+                      src={image4}
+                      alt="Fourth slide"
+                      className="slick-image"
+                    />
+                    <div className="slick-caption">
+                      <h4>
+                        <LocationOn className="slick-icons" />Cleveland Ohio
+                      </h4>
+                    </div>
+                  </div>
+                  <div>
+                    <img
+                      src={image5}
+                      alt="Fifth slide"
+                      className="slick-image"
+                    />
+                    <div className="slick-caption">
+                      <h4>
+                        <LocationOn className="slick-icons" />Cleveland Ohio
                       </h4>
                     </div>
                   </div>

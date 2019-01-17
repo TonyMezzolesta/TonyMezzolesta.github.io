@@ -25,7 +25,7 @@ function HeaderLinks({ ...props }) {
       <ListItem className={classes.listItem}>
         <CustomDropdown
           noLiPadding
-          buttonText="Components"
+          buttonText="Menu"
           buttonProps={{
             className: classes.navLink,
             color: "transparent"
@@ -33,19 +33,19 @@ function HeaderLinks({ ...props }) {
           buttonIcon={Apps}
           dropdownList={[
             <Link to="/" className={classes.dropdownLink}>
-              All components
+              Menu
             </Link>,
-            <a
-              href="https://creativetimofficial.github.io/material-kit-react/#/documentation"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
-              Documentation
-            </a>
+            // <a
+            //   href="https://creativetimofficial.github.io/material-kit-react/#/documentation"
+            //   target="_blank"
+            //   className={classes.dropdownLink}
+            // >
+            //   Documentation
+            // </a>
           ]}
         />
       </ListItem>
-      <ListItem className={classes.listItem}>
+      {/* <ListItem className={classes.listItem}>
         <Button
           href="https://www.creative-tim.com/product/material-kit-react"
           color="transparent"
@@ -54,7 +54,7 @@ function HeaderLinks({ ...props }) {
         >
           <CloudDownload className={classes.icons} /> Download
         </Button>
-      </ListItem>
+      </ListItem> */}
       <ListItem className={classes.listItem}>
         <Tooltip
           id="instagram-twitter"

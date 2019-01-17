@@ -25,7 +25,7 @@ class Components extends React.Component {
     return (
       <div>
         <Header
-          brand="Material Kit React"
+          brand="Marketing Specialist"
           rightLinks={<HeaderLinks />}
           fixed
           color="transparent"
@@ -35,7 +35,7 @@ class Components extends React.Component {
           }}
           {...rest}
         />
-        <Parallax image={require("assets/img/bg4.jpg")}>
+        <Parallax image={require("assets/img/professional/teenage_emotion.jpeg")}>
           <div className={classes.container}>
             <GridContainer>
               <GridItem>

@@ -15,18 +15,7 @@ import Button from "components/CustomButtons/Button.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 // sections for this page
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
-import SectionBasics from "./Sections/SectionBasics.jsx";
-import SectionNavbars from "./Sections/SectionNavbars.jsx";
-import SectionTabs from "./Sections/SectionTabs.jsx";
-import SectionPills from "./Sections/SectionPills.jsx";
-import SectionNotifications from "./Sections/SectionNotifications.jsx";
-import SectionTypography from "./Sections/SectionTypography.jsx";
-import SectionJavascript from "./Sections/SectionJavascript.jsx";
 import SectionCarousel from "./Sections/SectionCarousel.jsx";
-import SectionCompletedExamples from "./Sections/SectionCompletedExamples.jsx";
-import SectionLogin from "./Sections/SectionLogin.jsx";
-import SectionExamples from "./Sections/SectionExamples.jsx";
-import SectionDownload from "./Sections/SectionDownload.jsx";
 
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
 
@@ -51,37 +40,18 @@ class Components extends React.Component {
             <GridContainer>
               <GridItem>
                 <div className={classes.brand}>
-                  <h1 className={classes.title}>Material Kit React.</h1>
+                  <h1 className={classes.title}>Mezzo Marketing.</h1>
                   <h3 className={classes.subtitle}>
-                    A Badass Material-UI Kit based on Material Design.
+                    Future strategic plans for your business.
                   </h3>
                 </div>
               </GridItem>
             </GridContainer>
           </div>
         </Parallax>
-
-        {/* <div className={classNames(classes.main, classes.mainRaised)}>
-          <SectionBasics />
-          <SectionNavbars />
-          <SectionTabs />
-          <SectionPills />
-          <SectionNotifications />
-          <SectionTypography />
-          <SectionJavascript />
-          <SectionCarousel />
-          <SectionCompletedExamples />
-          <SectionLogin />
-          <GridItem md={12} className={classes.textCenter}>
-            <Link to={"/login-page"} className={classes.link}>
-              <Button color="primary" size="lg" simple>
-                View Login Page
-              </Button>
-            </Link>
-          </GridItem>
-          <SectionExamples />
-          <SectionDownload />
-        </div> */}
+        <div className={classNames(classes.main, classes.mainRaised)}>
+            <SectionCarousel />
+        </div>
         <Footer />
       </div>
     );
